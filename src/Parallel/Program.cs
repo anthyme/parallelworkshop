@@ -7,7 +7,7 @@ namespace Parallel
 {
     class Program
     {
-        static Target target = Target.CpuSequential | Target.Task;
+        static Target target = Target.Sequential | Target.Task;
 
         static void Main(string[] args)
         {
